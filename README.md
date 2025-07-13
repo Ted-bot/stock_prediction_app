@@ -16,12 +16,17 @@ Start application:
 
 1. virtual enviroment: create venv (name folder: venv/ env) folder:
   -  pyhton3 -m venv {name folder}
- 
- activate venv:
+
+
+2. install needed packages from requirements.txt
+  - python -m pip install --requirement requirements.txt
+
+
+4. activate venv:
   - source {name folder}/bin/activate
 
 
-2. start django from main app folder (not in backend_drf):
+5. start django from main app folder (not in backend_drf):
   
   install needed packages for python (inside backend_drf directory
   - cd backend_drf
@@ -32,7 +37,7 @@ Start application:
   - python3 manage.py runserver
 
 
-3. start frontend app:
+6. start frontend app:
   - cd frontend app
   - npm run dev
 

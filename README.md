@@ -10,9 +10,6 @@ Enter a stock of a company that ussually exist out of 4 characters e.g.:
 
 After a stock has been specified enter the "See prediction" button, to see the prediction.
 
-source api:  https://pypi.org/project/yfinance/
-source to search for a specific stock: https://finance.yahoo.com/?guccounter=1&guce_referrer=aHR0cHM6Ly9weXBpLm9yZy8&guce_referrer_sig=AQAAAEccILwW2wFjcx2pqtnhEQaOrkTp-x9OuAGbKHqO23tMUqnvlnlrXMPO5Fqrdeyr_2Uw5-KlEGbOTwFW1BAN5WmjKIM2JddVahaGKuGYgvgGvP1OYD2t8g2OX0PxRzdlaZpPdR_kOQjoOEWB_7SGjMGrUdjima-GY3WkZRNAeqO4
-
 Start application:
 - Use a terminal and open the project folder
 
@@ -47,3 +44,7 @@ frontend:
 backend:
 - http://localhost:8000
 - http://localhost:8000/api/v1/predict (post)
+
+
+source api:  https://pypi.org/project/yfinance/
+source to search for a specific stock: https://finance.yahoo.com/?guccounter=1&guce_referrer=aHR0cHM6Ly9weXBpLm9yZy8&guce_referrer_sig=AQAAAEccILwW2wFjcx2pqtnhEQaOrkTp-x9OuAGbKHqO23tMUqnvlnlrXMPO5Fqrdeyr_2Uw5-KlEGbOTwFW1BAN5WmjKIM2JddVahaGKuGYgvgGvP1OYD2t8g2OX0PxRzdlaZpPdR_kOQjoOEWB_7SGjMGrUdjima-GY3WkZRNAeqO4

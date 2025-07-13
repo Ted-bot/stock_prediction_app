@@ -31,7 +31,7 @@ export default function Dashboard() {
               value={stockId}
               onChange={(e) => setStockId(e.target.value)}
               />
-            <button type="submit">send stock id</button>
+            <button type="submit">send ticker</button>
           </form>
         </div>
     </div>

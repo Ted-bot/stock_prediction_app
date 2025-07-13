@@ -1,4 +1,20 @@
-Start application with terminal and open the project folder
+This application makes stock predictions.
+Data provided by yfinance (Yahoo) API.
+
+On the Dashboard page there is a input form and button.
+The input has a place holder "enter ticker id".
+
+Enter a stock of a company that ussually exist out of 4 characters e.g.:
+- GOOG (google)
+- APPL (apple)
+
+After a stock has been specified enter the "See prediction" button, to see the prediction.
+
+source api:  https://pypi.org/project/yfinance/
+source to search for a specific stock: https://finance.yahoo.com/?guccounter=1&guce_referrer=aHR0cHM6Ly9weXBpLm9yZy8&guce_referrer_sig=AQAAAEccILwW2wFjcx2pqtnhEQaOrkTp-x9OuAGbKHqO23tMUqnvlnlrXMPO5Fqrdeyr_2Uw5-KlEGbOTwFW1BAN5WmjKIM2JddVahaGKuGYgvgGvP1OYD2t8g2OX0PxRzdlaZpPdR_kOQjoOEWB_7SGjMGrUdjima-GY3WkZRNAeqO4
+
+Start application:
+- Use a terminal and open the project folder
 
 
 1. virtual enviroment: create venv (name folder: venv/ env) folder:

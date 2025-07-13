@@ -1,9 +1,7 @@
-Start application
+Start application with terminal and open the project folder
 
 
-1. create virtual enviroment:
- 
- create venv (name folder: venv/ env) folder:
+1. virtual enviroment: create venv (name folder: venv/ env) folder:
   -  pyhton3 -m venv {name folder}
  
  activate venv:

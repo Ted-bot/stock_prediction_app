@@ -10,7 +10,7 @@ Enter a stock of a company that ussually exist out of 4 characters e.g.:
 
 After a stock has been specified enter the "See prediction" button, to see the prediction.
 
-Start application:
+How to start application:
 - Use a terminal and open the project folder
 
 

@@ -8,6 +8,7 @@ export default function Dashboard() {
   const [stockId, setStockId] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [plot, setPlot] = useState(false);
 
 
   const sendData = async (e) => {
@@ -18,6 +19,8 @@ export default function Dashboard() {
     try {
       const response = await axios.post('http://127.0.0.1:8000/api/v1/predict', { ticker: stockId });
       console.log({success_response: response.data});
+      // Set plot
+
       if (response.data.error) setError(response.data.error)
     } catch (error) {
       console.error('Error fetching data:', error);

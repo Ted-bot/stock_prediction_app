@@ -8,6 +8,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime
+import os
+from django.conf import settings
 
 # Create your views here.
 class StockPredictionView(APIView):
@@ -32,5 +34,29 @@ class StockPredictionView(APIView):
                     'error': 'No data found for the ticker.',
                     })    
             
+            df = df.reset_index()
 
-            return Response({'status' : 'success', 'ticker': ticker})
+            #Generate the prediction
+            plt.switch_backend('Agg')
+            plt.figure(figsize=(12, 5))
+            plt.plot(df.Close, label='Closing Price')
+            plt.title(f"Closing price of {ticker}")
+            plt.xlabel('Days')
+            plt.ylabel('Close Price')
+            plt.legend()
+
+            # save the plot to a file
+            plot_image_path = f'{ticker}_plot.png'
+            image_path = os.path.join(settings.MEDIA_ROOT, plot_image_path)
+            
+            # save the plot in image directory
+            plt.savefig(image_path)
+            plt.close()
+            plot_img = settings.MEDIA_URL + plot_image_path
+
+            # print("Plot saved at:", image_path)
+
+            return Response({
+                'status' : 'success', 
+                'plot_img': plot_img,
+                })

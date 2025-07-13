@@ -22,3 +22,12 @@ Start application with terminal and open the project folder
 3. start frontend app:
   - cd frontend app
   - npm run dev
+
+
+frontend: 
+- http://localhost:5173/
+- http://localhost:5173/dashboard
+
+backend:
+- http://localhost:8000
+- http://localhost:8000/api/v1/predict (post)

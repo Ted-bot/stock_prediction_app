@@ -1,5 +1,6 @@
+Start application
 
-create virtual enviroment:
+1. create virtual enviroment:
  
  create venv (name folder: venv/ env) folder:
   -  pyhton3 -m venv {name folder}
@@ -7,7 +8,7 @@ create virtual enviroment:
  activate venv:
   - source {name folder}/bin/activate
 
-start django from main app folder (not in backend_drf):
+2. start django from main app folder (not in backend_drf):
   
   install needed packages for python (inside backend_drf directory
   - cd backend_drf
@@ -17,6 +18,6 @@ start django from main app folder (not in backend_drf):
   run server:
   - python3 manage.py runserver
 
-start frontend app:
+3. start frontend app:
   - cd frontend app
   - npm run dev

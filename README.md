@@ -32,7 +32,7 @@ Use a terminal and open the project folder
   - cd backend_drf
   - create '.env' file
   - add in '.env' file :
-    - SECRET_KEY=sdfsdfjskldnvkldnsvkdsnvljwuioudvheob2oHZ~>>ZBX (generate seecretkey at https://djecrety.ir/)
+    - SECRET_KEY=sZBX(&v*kfw0-8@^^snvljweob2oHZ~>> (generate secretkey at https://djecrety.ir/)
     - DEBUG=True
   - save file
   - pip3 install

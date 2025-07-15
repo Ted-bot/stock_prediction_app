@@ -2,7 +2,6 @@ import React from 'react'
 
 const HeaderLinks = () => {
     const links = [
-        { name: 'Home', path: '/' },
         { name: 'Dashboard', path: '/dashboard' }
     ]
     

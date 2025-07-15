@@ -77,7 +77,6 @@ Enter a Stock Identifier/ Ticker:
 <img width="1512" height="982" alt="Screenshot 2025-07-15 at 13 13 01" src="https://github.com/user-attachments/assets/75469c9b-5671-4752-af79-897cd6a3fe55" /><br />
 
 Press See prediction to get a prediction:
-<img width="1512" height="982" alt="Screenshot 2025-07-15 at 13 14 29" src="https://github.com/user-attachments/assets/ee32a584-60dc-4a18-b9d9-75e7f877c727" /><br />
-
+<img width="1512" height="982" alt="Screenshot 2025-07-15 at 14 07 12" src="https://github.com/user-attachments/assets/6b5d1f46-2228-4c2d-b31e-d043e6bb5bc2" />
 
 

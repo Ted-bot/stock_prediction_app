@@ -56,10 +56,28 @@ frontend:
 - http://localhost:5173/
 - http://localhost:5173/dashboard
 
-backend:
 - http://localhost:8000
 - http://localhost:8000/api/v1/predict (post)
 
 
 source api:  https://pypi.org/project/yfinance/
 source to search for a specific stock: https://finance.yahoo.com/?guccounter=1&guce_referrer=aHR0cHM6Ly9weXBpLm9yZy8&guce_referrer_sig=AQAAAEccILwW2wFjcx2pqtnhEQaOrkTp-x9OuAGbKHqO23tMUqnvlnlrXMPO5Fqrdeyr_2Uw5-KlEGbOTwFW1BAN5WmjKIM2JddVahaGKuGYgvgGvP1OYD2t8g2OX0PxRzdlaZpPdR_kOQjoOEWB_7SGjMGrUdjima-GY3WkZRNAeqO4
+
+
+frontend: dashboard page<br />
+Enter a stock identifier/ ticker like AAPL (Apple), GOOG (Google)
+<img width="1043" height="396" alt="Screenshot 2025-07-15 at 13 11 35" src="https://github.com/user-attachments/assets/4b27432e-aeb9-4eb8-b955-869d9d73ded1" /><br />
+
+
+// find a ticker on the following web page <a href="https://finance.yahoo.com/?guccounter=1&guce_referrer=aHR0cHM6Ly9weXBpLm9yZy8&guce_referrer_sig=AQAAAEccILwW2wFjcx2pqtnhEQaOrkTp-x9OuAGbKHqO23tMUqnvlnlrXMPO5Fqrdeyr_2Uw5-KlEGbOTwFW1BAN5WmjKIM2JddVahaGKuGYgvgGvP1OYD2t8g2OX0PxRzdlaZpPdR_kOQjoOEWB_7SGjMGrUdjima-GY3WkZRNAeqO4">finance.yahoo</a>
+
+<img width="1512" height="982" alt="Screenshot 2025-07-15 at 13 06 00" src="https://github.com/user-attachments/assets/7e42face-7a55-472c-aa9c-12d3a05cd836" /><br />
+
+Enter a Stock Identifier/ Ticker:
+<img width="1512" height="982" alt="Screenshot 2025-07-15 at 13 13 01" src="https://github.com/user-attachments/assets/75469c9b-5671-4752-af79-897cd6a3fe55" /><br />
+
+Press See prediction to get a prediction:
+<img width="1512" height="982" alt="Screenshot 2025-07-15 at 13 14 29" src="https://github.com/user-attachments/assets/ee32a584-60dc-4a18-b9d9-75e7f877c727" /><br />
+
+
+
